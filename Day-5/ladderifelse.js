@@ -11,13 +11,13 @@
     let marks=parseInt(prompt("enter a marks of subject 1"));
     let marks1=parseInt(prompt("enter a marks of subject 2"));
     let marks2=parseInt(prompt("enter a marks of subject 3"));
-      let per=((marks+marks1+marks2)*100)/3
+      let per=((marks+marks1+marks2))/3
       if(per>90){
         console.log("A grade")
-      }else if(per>=75&&per<=75){
+      }else if(per>=75&&per<90){
         console.log("b grade")
 
-      }else if(per>=65&&per<75){
+      }else if(per>=60&&per<75){
         console.log("c grade")
       }else{
         console.log("invalid")
